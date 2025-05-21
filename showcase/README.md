@@ -1,7 +1,7 @@
 # Strategy Results Showcase
 
-This directory contains key visualizations and results from the high-dividend low-volatility strategy. for details about the strategy, methodology, and results, View the [full presentation](./presentation.pdf)
-
+This directory contains key visualizations and results from the high-dividend low-volatility strategy. View the [full presentation](./presentation.pdf)
+for details about the strategy, methodology, and results.
 ## Performance Metrics
 ![Performance Metrics](performance_metrics.png)
 
