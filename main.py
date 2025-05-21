@@ -11,6 +11,7 @@ The strategy selects stocks with:
 """
 
 import os
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -18,14 +19,17 @@ import seaborn as sns
 import time
 from datetime import datetime
 
-# Import local modules
-from src.data_utils import load_sp500_constituents, fetch_stock_data, fetch_risk_free_rate
-from src.stock_selection import select_stocks
-from src.portfolio_simulation import simulate_portfolio
-from src.performance_metrics import calculate_performance_metrics, analyze_stock_selection
-from src.visualization import (create_performance_metrics_table, create_performance_charts,
+# Add the src directory to the Python path
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src'))
+
+# Import from src directory
+from data_utils import load_sp500_constituents, fetch_stock_data, fetch_risk_free_rate
+from stock_selection import select_stocks
+from portfolio_simulation import simulate_portfolio
+from performance_metrics import calculate_performance_metrics, analyze_stock_selection
+from visualization import (create_performance_metrics_table, create_performance_charts,
                          create_parameter_heatmap, plot_top_stocks, plot_sector_breakdown)
-from src.parameter_optimization import (create_parameter_grid, find_optimal_parameters, 
+from parameter_optimization import (create_parameter_grid, find_optimal_parameters, 
                                   run_parameter_optimization)
 
 
