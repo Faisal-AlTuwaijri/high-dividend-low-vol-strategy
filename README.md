@@ -43,7 +43,7 @@ high-dividend-strategy/
 └── main.py                    # Main execution script
 ```
 
-## Installation
+## Installation and Usage
 
 1. Clone this repository:
 ```
@@ -56,23 +56,16 @@ cd high-dividend-strategy
 pip install -r requirements.txt
 ```
 
-## Data Requirements
+3. Ensure you have the data file:
+- `sp500_historical_components.csv` in the `data/` directory
 
-The framework requires a CSV file containing historical S&P 500 constituents. The file should contain at least:
-- A `date` column with dates in YYYY-MM-DD format
-- A `tickers` column with comma-separated lists of ticker symbols
-
-Price and dividend data are fetched from Yahoo Finance using the `yfinance` library.
-
-## Usage
-
-### Basic Usage
-
-Run the main analysis script:
-
-```python
+4. Run the analysis:
+```
 python main.py
 ```
+5. View results:
+- Check the `results/` directory for generated visualizations and charts
+- The performance metrics summary is saved as `results/performance_summary.png`
 
 This will:
 1. Load S&P 500 constituents from the CSV file
@@ -81,6 +74,14 @@ This will:
 4. Identify optimal parameters based on Sharpe ratio
 5. Run detailed analysis of the optimal strategy
 6. Generate visualizations in the `results/` directory
+
+## Data Requirements
+
+The framework requires a CSV file containing historical S&P 500 constituents. The file should contain at least:
+- A `date` column with dates in YYYY-MM-DD format
+- A `tickers` column with comma-separated lists of ticker symbols
+
+Price and dividend data are fetched from Yahoo Finance using the `yfinance` library.
 
 ### Custom Analysis
 
