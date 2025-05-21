@@ -10,15 +10,15 @@ The strategy selects stocks with:
 2. Volatility below a specified percentile cutoff
 """
 
-import os
-import sys
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 from datetime import datetime
-
+import os
+import sys
 # Add the src directory to the Python path
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src'))
 
