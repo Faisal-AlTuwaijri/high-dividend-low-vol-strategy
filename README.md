@@ -43,6 +43,10 @@ high-dividend-strategy/
 └── main.py                    # Main execution script
 ```
 
+## Results
+
+Explore the [project presentation slides](./slides/README.md) for a comprehensive overview of the strategy, methodology, and findings.
+
 ## Installation and Usage
 
 1. Clone this repository:
