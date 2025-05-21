@@ -45,7 +45,7 @@ high-dividend-strategy/
 
 ## Results
 
-Explore the [project presentation slides](./slides/README.md) for a comprehensive overview of the strategy, methodology, and findings.
+Explore the [project presentation slides](./showcase/presentation.pdf) for a comprehensive overview of the strategy, methodology, and findings.
 
 ## Installation and Usage
 
