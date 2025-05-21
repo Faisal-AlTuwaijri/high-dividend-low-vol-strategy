@@ -13,9 +13,9 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Import local modules
-from portfolio_simulation import simulate_portfolio
-from performance_metrics import calculate_performance_metrics, analyze_stock_selection
-from visualization import create_parameter_heatmap, create_performance_charts, plot_top_stocks
+from .portfolio_simulation import simulate_portfolio
+from .performance_metrics import calculate_performance_metrics, analyze_stock_selection
+from .visualization import create_parameter_heatmap, create_performance_charts, plot_top_stocks
 
 
 def create_parameter_grid(yield_thresholds, volatility_percentiles):
