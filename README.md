@@ -47,7 +47,8 @@ high-dividend-strategy/
 
 Explore the [project presentation slides](./showcase/presentation.pdf) for a comprehensive overview of the strategy, methodology, and findings. Here's is a teaser:
 
-![image](https://github.com/user-attachments/assets/952853b4-5736-484e-9ecc-f6e418a4cdf1)
+![image](https://github.com/user-attachments/assets/8cd225f3-25c4-4d77-b242-54c764740cc3)
+
 
 
 ## Installation and Usage
