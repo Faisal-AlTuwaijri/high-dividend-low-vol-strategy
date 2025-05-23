@@ -293,7 +293,7 @@ if __name__ == "__main__":
         csv_file_path=csv_file_path,
         target_date='2014-12-31',
         start_date="2015-01-01",
-        end_date="2024-01-01",
+        end_date="2024-12-31",
         output_dir="results"
     )
     
